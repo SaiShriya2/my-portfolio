@@ -1,0 +1,51 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: rgba(25,25,33,0.98);
+  z-index: 999;
+  box-shadow: 0 2px 12px #0002;
+  padding: 0.8rem 0;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.header-content .logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.header-content nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-content nav a {
+  color: #fff;
+  margin-left: 1.7rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.43rem 1rem;
+  border-radius: 2rem;
+  transition: background 0.19s, color 0.16s;
+}
+
+.header-content nav a:hover {
+  background: #1d4c7b;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .header-content { padding: 0 1.2rem; }
+  .header-content nav a { margin-left: 1.15rem; font-size: 0.97rem; }
+}
