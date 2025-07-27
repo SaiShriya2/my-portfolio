@@ -1,5 +1,7 @@
 import React from "react";
 import "./Landing.css";
+import profileImage from '../assets/profile.jpg';
+
 
 export default function Landing({ fadeOut, onViewProfile }) {
   return (
@@ -11,7 +13,7 @@ export default function Landing({ fadeOut, onViewProfile }) {
 
       <div className="landing-widget">
         <div className="widget-profile-pic">
-          <img src="src\assets\profile.jpg" alt="Sai Shriya Lingala" />
+          <img src={profileImage} alt="Sai Shriya Lingala" />
         </div>
         <div className="widget-content">
           <div className="widget-role">Software Engineer</div>
