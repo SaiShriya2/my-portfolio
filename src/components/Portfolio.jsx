@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import { FaGithub } from "react-icons/fa";
+import profileImage from '../assets/profile.jpg';
 import { FaChartBar, FaHeartbeat, FaUniversity, FaCarCrash } from 'react-icons/fa';
 
 
@@ -65,7 +66,7 @@ export default function Portfolio() {
         <div className="hero-col hero-avatar">
           <div className="hero-image-motion-container">
               <div className="hero-image-container">
-  <img src="src\assets\profile.jpg" alt="profile" className="profile-round" />
+  <img src={profileImage} alt="profile" className="profile-round" />
 
   {/* First floating SVG blob */}
   <svg
