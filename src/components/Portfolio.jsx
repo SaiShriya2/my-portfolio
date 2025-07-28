@@ -2,6 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import { FaGithub } from "react-icons/fa";
 import profileImage from '../assets/profile.jpg';
+import resume from '../assets/SAI SHRIYA LINGALA.pdf';
 import { FaChartBar, FaHeartbeat, FaUniversity, FaCarCrash } from 'react-icons/fa';
 
 
@@ -157,10 +158,10 @@ export default function Portfolio() {
       <section id="contact-section" className="contact-section">
         <h1 class="contact-header">Contact Information</h1>
         <div className="contact-links">
-          <a href="mailto:saishriyalingala@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+          <a href="mailto:saishriyalingala01@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
           <a href="https://github.com/SaiShriya2" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/saishriyalingala/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="src\assets\SAI SHRIYA LINGALA.pdf" download="SaiShriyaLingala.pdf">Download Resume</a>
+          <a href= {resume} download="SaiShriyaLingala.pdf">Download Resume</a>
         </div>
       </section>
     </div>
