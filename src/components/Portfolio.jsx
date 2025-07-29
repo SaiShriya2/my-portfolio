@@ -53,7 +53,7 @@ export default function Portfolio() {
         <div className="hero-col">
           <h2 className="greet">Hi, I'm Sai Shriya Lingala</h2>
           <h1 className="title">
-            Software Engineer & Data Enthuiast
+            Software Engineer & Data Enthusiast
           </h1>
           <div className="subtitle">
             Delivering high-quality analytics, automation, and cloud solutions.<br />
