@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import { FaGithub } from "react-icons/fa";
 import profileImage from '../assets/profile.jpg';
-import resume from '../assets/SAI SHRIYA LINGALA.pdf';
+import resume from '../assets/SAISHRIYALINGALA.pdf';
 import { FaChartBar, FaHeartbeat, FaUniversity, FaCarCrash } from 'react-icons/fa';
 
 
