@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import { FaGithub } from "react-icons/fa";
 import profileImage from '../assets/profile.jpg';
-import resume from '../assets/SAI_SHRIYA LINGALA.pdf';
+import resume from '../assets/SAI SHRIYA LINGALA.pdf';
 import { FaChartBar, FaHeartbeat, FaUniversity, FaCarCrash } from 'react-icons/fa';
 
 
@@ -161,12 +161,13 @@ export default function Portfolio() {
           <a href="mailto:saishriyalingala01@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
           <a href="https://github.com/SaiShriya2" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/saishriyalingala/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href= {resume} download="SAI_SHRIYA LINGALA.pdf">Download Resume</a>
+          <a href= {resume} download="SAI SHRIYA LINGALA.pdf">Download Resume</a>
         </div>
       </section>
     </div>
   );
 }
+
 
 
 
