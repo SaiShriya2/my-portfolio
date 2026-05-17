@@ -8,7 +8,7 @@ import { FaChartBar, FaHeartbeat, FaUniversity, FaCarCrash } from 'react-icons/f
 
 // Define your skills array
 const skills = [
-  "Power Apps", "Power Automate", "C#", ".NET", "Microsoft Azure",
+  "Copilot Studio","Power Apps", "Power Automate", "C#", ".NET", "Microsoft Azure",
   "Power BI", "SQL", "Power Fx", "GitHub Actions"
 ];
 
